@@ -16,25 +16,28 @@
 <body>
 
     <!-- Tela cadastro -->
-    <section>
+    <section class="telacad">
     <div class="cad">
 
     <!-- Cabeçalho cadastro -->
     <div>
-    <a href="https://coursify.me/" target="_blank"> <img src=".\img\logo.svg" class="logo"></a>
-    <p class="cadtitle"> Seja bem vindo ao </p>
-    <p class="cadtitle2">Coursify.Me Enterprise<p>
-    <span class="cadspan">Although the bobcat is rarely seen, it is the most common <br> wildcat in North America.</span>
+        <a href="https://coursify.me/" target="_blank"> <img src="./img/logo.svg" class="logo"></a>
+        <p class="cadtitle"> Seja bem vindo ao </p>
+        <p class="cadtitle2">Coursify.Me Enterprise<p>
+        <span class="cadspan">Although the bobcat is rarely seen, it is the most common <br> wildcat in North America.</span>
     </div>
     <!-- Fim Cabeçalho cadastro -->
 
-    <!-- Formulário -->
+    <!-- Menu Formulário  -->
     <div>
-    <div id="menuform" class="menuform">
-        <a id="menucad" class="menucad" href="#">Cadastro</a>
-        <a id="menulogin" class="menulogin" href="#">Login</a>
+        <div id="menuform" class="menuform">
+            <a id="menucad" class="menucad" href="#">Cadastro</a>
+            <a id="menulogin" class="menulogin" href="#">Login</a>
+        </div>
     </div>
+    <!-- Fim Menu Formulário  -->
     
+    <!-- Formulário cadastro -->
     <form id="formcad" class="formcad">
         <label>
             <input type="text" class="inputcad" placeholder="Nome da Escola">
@@ -62,9 +65,47 @@
      
          </form>
 
+    <!-- Fim Formuário cadastro -->
+   
+        <!-- Formulário login -->
+            <form id="formlogin" class="formlogin">
+                    <input type="text" class="inputcad" placeholder="E-mail">
+                </label>
+                <label>
+                    <input type="text" class="inputcad" placeholder="Senha">
+                </label>
+                <span><a href="#">Esqueci minha senha</a></span>
+              
+                 <button class="submitlogin">Login</button>
+                </label>
+             
+                 </form>
+        <!-- Fim Formuário login -->
+        
+        <span class="formfooter">2020 © Coursify.Me. Todos os direitos reservados</span>
+            
+      </div>
+
+    <!-- Carrossel -->
+    <div id="carrossel" class="carrossel">
+        <div id="car-1">
+            <img class="car-img" src="./img/image_01.svg">
+            <div class="nav-bar">
+                <a id="nav-next" class="nav" href="#car-2"></a>
+                <a id="nav-previous" class="nav" href="#car-1"></a>
+            </div>  
+        </div>
+        
+        <div  id="car-2">
+            <img class="car-img" src="./img/image_02.svg">
+            <div class="nav-bar">
+                <a id="nav-next" class="nav" href="#car-2"></a>
+                <a id="nav-previous" class="nav" href="#car-1"></a>
+            </div>  
+        </div>  
     </div>
-    <!-- Fim Formuário -->
-    </div>
+
+     <!-- Fim Carrossel --> 
     </section>
     <!-- Fim Tela cadastro -->
 

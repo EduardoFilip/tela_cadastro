@@ -86,6 +86,9 @@ html {
     opacity: 1;
 }
 
+.telacad {
+    display: flex;
+}
 
 .cad {
     margin-top: 40px;
@@ -96,6 +99,8 @@ html {
     box-shadow: 0px 0px 10px #3333331F;
     border-radius: 30px;
     opacity: 1;
+    position:relative;
+    float: left;
 }
 
 /* Cabeçalho cadastro */
@@ -191,7 +196,7 @@ input:focus::-webkit-input-placeholder {
     color: transparent;
  }
 
- .formcad {
+ .formcad, .formlogin {
     list-style:none;
     padding-left: 30px;
     padding-right: 30px;
@@ -209,6 +214,10 @@ input:focus::-webkit-input-placeholder {
     opacity: 1;
     margin-bottom: 12px;
     padding-left: 15px;
+}
+
+select {
+    outline: none;
 }
 
 .prefx-fone {
@@ -248,16 +257,87 @@ button {
     border:none;
     display: block;
     margin: auto;
+    outline:none;
 }
 
-.submitcad {
+.submitcad, .submitlogin {
     font-style: var(--unnamed-font-style-normal);
     font-size: var(--unnamed-font-size-18);
     font-family: var(--unnamed-font-family-normal);
     letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: left;
     color: #FFFFFF;
     text-align: center;
+    margin-top: 30px;
 }
 
+.submitcad {
+    margin-bottom: 70px;
+}
+
+.submitlogin {
+    margin-bottom: 160px;
+}
+
+span {
+    font-family: var(--unnamed-font-family-normal);
+    font-size: var(--unnamed-font-size-16);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: 300;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    color: #000000;
+    opacity: 1;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.formfooter {
+    font-family: var(--unnamed-font-family-normal);
+    font-size: 14px;
+    font-style: var(--unnamed-font-style-normal);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: #333333;
+    opacity: 1;
+    text-align: center;
+    display: block;
+}
 /* Fim formulário cadastro */
+
+/* Carrossel */
+
+.carrossel{
+    margin: auto;
+    position:relative;
+    float: left;
+    margin-top: 145px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+   
+   
+  .car-img {
+      width: 671px;
+      height: 477px;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+}
+
+  .nav {
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    margin-left: 2px;
+    border: none;
+    background-color:#A8B4B1;
+    text-align: center;
+    display: block;
+}
+
+  /* Fim Carrossel*/
+
