@@ -59,7 +59,7 @@ setInterval(function() {
     .show(1000)
     .end()
     .appendTo('#carrossel');
-}, 1000);
+}, 8000);
 
 /* Fim transição automática carrossel */
 
