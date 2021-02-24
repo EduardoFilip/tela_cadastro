@@ -8,17 +8,17 @@ $(".formcad").show()
 $(".formlogin").hide() 
 
 $("#menucad").click(function(){
-    $(this).css("color","#333333")
-    $(".menulogin").css("color","#C4C4C4") 
-    $(".formlogin").hide(500)
-    $(".formcad").show(500)
+    $(this).css("color","#333333").css({"text-decoration": "underline 3px #1abc9c","text-underline-offset": "5px"})
+    $(".menulogin").css("color","#C4C4C4").css({"text-decoration": "none"}) 
+    $(".formlogin").hide(700)
+    $(".formcad").show(700)
 })
 
 $("#menulogin").click(function(){
-    $(this).css("color","#333333")
-    $(".menucad").css("color","#C4C4C4")
-    $(".formcad").hide(500) 
-    $(".formlogin").show(500)
+    $(this).css("color","#333333").css({"text-decoration": "underline 3px #1abc9c","text-underline-offset": "5px"})
+    $(".menucad").css("color","#C4C4C4").css({"text-decoration": "none"})
+    $(".formcad").hide(700) 
+    $(".formlogin").show(700)
 })
 /* Fim animação Menu cadastro / Login */
 
@@ -62,22 +62,6 @@ setInterval(function() {
 }, 8000);
 
 /* Fim transição automática carrossel */
-
-// $("#nav-next").click(function(){
-//     $(this).css('background-color', '#1abc9c');
-//     $("#nav-previous").css('background-color', '');
-//     $("#car-1").hide(500) 
-//     $("#car-2").show(500)
-//     $(".nav").show()
-// })
-
-// $("#nav-previous").click(function(){
-//     $(this).css('background-color', '#1abc9c');
-//     $("#nav-next").css('background-color', '');
-//     $("#car-2").hide(500) 
-//     $("#car-1").show(500)
-//     $(".nav").show()
-// })
 
 
 });
