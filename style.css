@@ -190,11 +190,13 @@ html {
 }
 /* Fim menu formulário */
 
-/* Formulário cadastro */
-
+/* Placeholders dos input*/
 input:focus::-webkit-input-placeholder {
     color: transparent;
  }
+
+ 
+/* Formulário cadastro */
 
  .formcad, .formlogin {
     list-style:none;
