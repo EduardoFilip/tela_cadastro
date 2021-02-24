@@ -3,7 +3,7 @@ $(document).ready(function(){
     /* Animação no menu Cadastro / Login */
 
 $(".menulogin").css("color","#C4C4C4") 
-
+$(".menucad").css("color","#333333").css({"text-decoration": "underline 3px #1abc9c","text-underline-offset": "5px"})
 $(".formcad").show()
 $(".formlogin").hide() 
 
