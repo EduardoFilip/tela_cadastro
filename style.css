@@ -343,3 +343,12 @@ a {
 
   /* Fim Carrossel*/
 
+/* Media Query */
+
+@media  screen and (min-width:1920px) {
+    .telacad {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+}

@@ -32,7 +32,7 @@ $(".inputcad").focusin(function(){
 }).focusout(function(){
     $(this).css('border', '');
 })
-/* Fim da animação ao clicar nos input */
+
 
 $(".fone").click(function(){
     $(this).css('outline', 'none');
@@ -41,6 +41,7 @@ $(".fone").click(function(){
     $(this).css('border', '');
 })
 
+/* Fim da animação ao clicar nos input */
 
 /*Carrossel */
 
